@@ -1,3 +1,20 @@
+******************************************************************************************************************************************************************************
+##**##
+                           Open 3 tabs in terminal in vscode
+                           
+                    1.ANGULAR MAIN LOG
+                           ng serve
+
+                    2.JSON_SERVER
+                           ->npx install json-server
+                           ->npx json-server --watch db.json
+
+                    3.ANGULAR CLI
+                            ###any addons components,services,directives,pipes etc.
+
+##**##
+******************************************************************************************************************************************************************************
+
 # CrudApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
