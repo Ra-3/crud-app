@@ -1,0 +1,35 @@
+<div mat-dialog-title>
+ <h1>Edit Entry</h1>
+</div>
+
+<form [formGroup]="empForm">
+<div mat-dialog-content class="content">
+  <div class="row">
+  <mat-form-field class="example-full-width" appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Name"  formControlName="name">
+  </mat-form-field>
+  </div>
+
+<div class="row">
+  <mat-form-field class="example-full-width" appearance="outline">
+    <mat-label>Designation</mat-label>
+    <input matInput placeholder="Designation" value="" formControlName="designation">
+  </mat-form-field>
+</div>
+
+<div class="row">
+  <mat-form-field class="example-full-width" appearance="outline" type="number">
+    <mat-label>Salary</mat-label>
+    <input matInput placeholder="Salary"  formControlName="salary">
+  </mat-form-field>
+</div>
+
+</div>
+</form>
+
+<div mat-dialog-actions class="action">
+  <button mat-raised-button color="primary" (click)="onFormSubmit()">{{data ? 'Update':'Save'}}</button>
+  <button mat-raised-button type="button">Cancel</button>
+</div>
+

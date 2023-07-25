@@ -1,0 +1,23 @@
+.mat-dialog-title{
+  padding-top:10px ;
+}
+
+.content{
+  content: "";
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+
+}
+
+.action{
+  padding:0px 25px 20px;
+  button{
+    flex: 1;
+  }
+
+}
+
+
+
+
