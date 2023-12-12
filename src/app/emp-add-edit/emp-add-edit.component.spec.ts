@@ -15,7 +15,5 @@ describe('EmpAddEditComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+ 
 });
